@@ -1,65 +1,5 @@
 [
     {
-        "company_name": "Solo (W21)",
-        "description": "We help people resolve debt.",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$90K - $160K",
-        "average_salary": 125.0,
-        "job_location": "US / Remote (US)",
-        "job_page_link": "https://www.ycombinator.com/companies/solo/jobs/sT3t6VQ-software-engineer",
-        "job_hash": "ba253511db5daf173a8184f4ea1579bb"
-    },
-    {
-        "company_name": "AlgoTest (S22)",
-        "description": "Ecosystem for options trading in India",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Devops",
-        "job_salary": "No Salaray Specified",
-        "average_salary": -1,
-        "job_location": "₹2M - ₹5M INR",
-        "job_page_link": "https://www.ycombinator.com/companies/algotest/jobs/HpbUlL1-founding-devops-engineer-core-trading-platform",
-        "job_hash": "42cc356a929fc1a284c1d982a5f4d561"
-    },
-    {
-        "company_name": "Hype (S22)",
-        "description": "Trade memecoins & crypto",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$140K - $210K",
-        "average_salary": 175.0,
-        "job_location": "New York, NY, US",
-        "job_page_link": "https://www.ycombinator.com/companies/hype/jobs/TSdR1ed-senior-software-engineer",
-        "job_hash": "d7ca600bf520e9893cf298b074cce2f2"
-    },
-    {
-        "company_name": "Agave (W22)",
-        "description": "Data infrastructure for Construction",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Backend",
-        "job_salary": "$130K - $240K",
-        "average_salary": 185.0,
-        "job_location": "San Francisco, CA",
-        "job_page_link": "https://www.ycombinator.com/companies/agave/jobs/uNmv0Mv-software-engineer",
-        "job_hash": "765fdbc9a89a11498a2d55d3862a9cdf"
-    },
-    {
-        "company_name": "Adaptyv (S21)",
-        "description": "We're building fully automated labs for protein engineering",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "No Salaray Specified",
-        "average_salary": -1,
-        "job_location": "Lausanne / Hybrid / Remote / Remote (US)",
-        "job_page_link": "https://www.ycombinator.com/companies/adaptyv/jobs/zuW50qh-product-engineer",
-        "job_hash": "dc4a97f2342a2258f951637a98ba41b5"
-    },
-    {
         "company_name": "Helicone (W23)",
         "description": "LLM Observability for Developers",
         "job_title": "Full-time",
@@ -69,175 +9,8 @@
         "average_salary": 125.0,
         "job_location": "San Francisco, CA, US",
         "job_page_link": "https://www.ycombinator.com/companies/helicone/jobs/3sOKzNG-software-engineer",
-        "job_hash": "a1b8cfc933908c33e0ad9b0f4c1062cf"
-    },
-    {
-        "company_name": "Wefunder (W13)",
-        "description": "We're Robinhood for pre-IPO startups. Everyone can invest $100.",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "No Salaray Specified",
-        "average_salary": -1,
-        "job_location": "San Francisco, CA, US",
-        "job_page_link": "https://www.ycombinator.com/companies/wefunder/jobs/oC8Vfe1-full-stack-senior-software-engineer",
-        "job_hash": "02c34bea072ec95f6ebc3b3181416893"
-    },
-    {
-        "company_name": "Solve Intelligence (S23)",
-        "description": "AI patent drafting, prosecution, harvesting and more for legal teams.",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Machine learning",
-        "job_salary": "$100K - $250K",
-        "average_salary": 175.0,
-        "job_location": "London, England, GB",
-        "job_page_link": "https://www.ycombinator.com/companies/solve-intelligence/jobs/xjMVxGq-ai-engineer",
-        "job_hash": "9d2fca71352b2310d423d299cc22eb9c"
-    },
-    {
-        "company_name": "hotglue (S21)",
-        "description": "Native user-facing SaaS integrations for your customers",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Backend",
-        "job_salary": "$70K - $95K",
-        "average_salary": 82.5,
-        "job_location": "Washington D.C.",
-        "job_page_link": "https://www.ycombinator.com/companies/hotglue/jobs/aDWIDRN-solutions-architect",
-        "job_hash": "aa69b472f9eac8d536d673312129c569"
-    },
-    {
-        "company_name": "Aurelian (S22)",
-        "description": "Automating non-emergency calls for 911 centers",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Backend",
-        "job_salary": "$140K - $200K",
-        "average_salary": 170.0,
-        "job_location": "Seattle, WA, US",
-        "job_page_link": "https://www.ycombinator.com/companies/aurelian/jobs/BcEt3vk-backend-software-engineer",
-        "job_hash": "11007a5859123aaf55baa3df24a7454c"
-    },
-    {
-        "company_name": "Axle (S22)",
-        "description": "Universal API for insurance",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$110K - $150K",
-        "average_salary": 130.0,
-        "job_location": "New York, NY, US",
-        "job_page_link": "https://www.ycombinator.com/companies/axle/jobs/8wAy0QH-product-engineer",
-        "job_hash": "7344bae4e6ca0565fcdaef91a7588d1f"
-    },
-    {
-        "company_name": "GrowthBook (W22)",
-        "description": "Open source feature flagging and A/B testing",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$200K - $240K",
-        "average_salary": 220.0,
-        "job_location": "US / Remote (US)",
-        "job_page_link": "https://www.ycombinator.com/companies/growthbook/jobs/VF3nhpb-staff-software-engineer",
-        "job_hash": "0891fbd3d48df84c525d9b268e465012"
-    },
-    {
-        "company_name": "Sphere (W22)",
-        "description": "AI-powered sales tax, VAT and GST compliance",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$180K - $250K",
-        "average_salary": 215.0,
-        "job_location": "San Francisco, CA, US",
-        "job_page_link": "https://www.ycombinator.com/companies/sphere/jobs/m1e8VIc-senior-full-stack-engineer",
-        "job_hash": "4f11220a5a450d13eefddc33ac30312f"
-    },
-    {
-        "company_name": "Amplitude (W12)",
-        "description": "Digital Analytics Platform",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$203K - $305K",
-        "average_salary": 254.0,
-        "job_location": "San Francisco, CA, US",
-        "job_page_link": "https://www.ycombinator.com/companies/amplitude/jobs/w0WSIC8-senior-product-engineer-ai-agents",
-        "job_hash": "e4e6b0ea95ece1dab01e98d9eaf446f5"
-    },
-    {
-        "company_name": "Polymath Robotics (S22)",
-        "description": "General Autonomy for Industrial Vehicles",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Data science",
-        "job_salary": "$120K - $200K",
-        "average_salary": 160.0,
-        "job_location": "San Francisco, CA, US",
-        "job_page_link": "https://www.ycombinator.com/companies/polymath-robotics/jobs/Yd9VdnO-devops-infrastructure-engineer-for-robotics-san-francisco",
-        "job_hash": "c4f67e61a3e4e65905d5bd7acf4feb09"
-    },
-    {
-        "company_name": "Porter (S20)",
-        "description": "Easiest way to deploy on AWS/GCP/Azure",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$100K - $200K",
-        "average_salary": 150.0,
-        "job_location": "New York City",
-        "job_page_link": "https://www.ycombinator.com/companies/porter/jobs/6QhplSz-full-stack-engineer",
-        "job_hash": "fdf905674a5d66abecee8e09ad4d5780"
-    },
-    {
-        "company_name": "Medplum (S22)",
-        "description": "API first electronic health record (EHR) that is open source",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$160K - $220K",
-        "average_salary": 190.0,
-        "job_location": "San Francisco, CA, US",
-        "job_page_link": "https://www.ycombinator.com/companies/medplum/jobs/nAbajSt-software-engineer",
-        "job_hash": "e7dd21f25470fa65ab4cf70589d07531"
-    },
-    {
-        "company_name": "Flock Safety (S17)",
-        "description": "The first public safety operating system that eliminates crime.",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Full stack",
-        "job_salary": "$170K - $250K",
-        "average_salary": 210.0,
-        "job_location": "Atlanta, GA, US / Remote (Atlanta, GA, US)",
-        "job_page_link": "https://www.ycombinator.com/companies/flock-safety/jobs/YME3UnJ-senior-software-engineer-backend-integrations",
-        "job_hash": "30b4bee8447f25a6b115b02077b26770"
-    },
-    {
-        "company_name": "AlphaWatch AI (W23)",
-        "description": "Agentic search for enterprises with trusted data",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Backend",
-        "job_salary": "$80K - $145K",
-        "average_salary": 112.5,
-        "job_location": "US / CA / Remote (US; CA)",
-        "job_page_link": "https://www.ycombinator.com/companies/alphawatch-ai/jobs/2gXUJej-north-america-special-projects-engineer",
-        "job_hash": "82c9121302b2695ca38dd5da99fcd4e9"
-    },
-    {
-        "company_name": "Fern (W23)",
-        "description": "Instantly offer SDKs and API Docs",
-        "job_title": "Full-time",
-        "job_field": "Engineering",
-        "job_type": "Frontend",
-        "job_salary": "$170K - $210K",
-        "average_salary": 190.0,
-        "job_location": "New York, NY, US",
-        "job_page_link": "https://www.ycombinator.com/companies/fern/jobs/UJemKYf-frontend-engineer",
-        "job_hash": "c64d5262747846081dc5fa4e5c6bc9a0"
+        "job_hash": "a1b8cfc933908c33e0ad9b0f4c1062cf",
+        "job_post_time": "2025-10-07T16:26:36.954052"
     },
     {
         "company_name": "222 (W23)",
@@ -249,7 +22,8 @@
         "average_salary": 165.0,
         "job_location": "New York, NY, US",
         "job_page_link": "https://www.ycombinator.com/companies/222/jobs/afxyfO8-ios-engineer-design-engineer",
-        "job_hash": "57481f0c8b33cb7c125b54077c2293a9"
+        "job_hash": "57481f0c8b33cb7c125b54077c2293a9",
+        "job_post_time": "2025-10-07T16:26:36.954210"
     },
     {
         "company_name": "Verse Medical (S18)",
@@ -261,7 +35,8 @@
         "average_salary": 185.0,
         "job_location": "San Francisco, CA, US",
         "job_page_link": "https://www.ycombinator.com/companies/jetlenses/jobs/g3BB427-senior-staff-full-stack-engineer",
-        "job_hash": "55fc0a3d3806ef46972237f3a2757232"
+        "job_hash": "55fc0a3d3806ef46972237f3a2757232",
+        "job_post_time": "2025-10-07T16:26:36.954345"
     },
     {
         "company_name": "Cairns Health (S17)",
@@ -273,7 +48,60 @@
         "average_salary": 180.0,
         "job_location": "Sunnyvale, CA, US / Remote (US; CA)",
         "job_page_link": "https://www.ycombinator.com/companies/cairns-health/jobs/DW8QWG8-staff-devops-engineer",
-        "job_hash": "084834b155e608cc4b1d026186017e8c"
+        "job_hash": "084834b155e608cc4b1d026186017e8c",
+        "job_post_time": "2025-10-07T16:26:36.954475"
+    },
+    {
+        "company_name": "Porter (S20)",
+        "description": "Easiest way to deploy on AWS/GCP/Azure",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$100K - $200K",
+        "average_salary": 150.0,
+        "job_location": "New York City",
+        "job_page_link": "https://www.ycombinator.com/companies/porter/jobs/6QhplSz-full-stack-engineer",
+        "job_hash": "fdf905674a5d66abecee8e09ad4d5780",
+        "job_post_time": "2025-10-07T16:26:36.954599"
+    },
+    {
+        "company_name": "GrowthBook (W22)",
+        "description": "Open source feature flagging and A/B testing",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$200K - $240K",
+        "average_salary": 220.0,
+        "job_location": "US / Remote (US)",
+        "job_page_link": "https://www.ycombinator.com/companies/growthbook/jobs/VF3nhpb-staff-software-engineer",
+        "job_hash": "0891fbd3d48df84c525d9b268e465012",
+        "job_post_time": "2025-10-07T16:26:36.954723"
+    },
+    {
+        "company_name": "LiteLLM (W23)",
+        "description": "Call every LLM API like it's OpenAI [100+ LLMs]",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$160K - $220K",
+        "average_salary": 190.0,
+        "job_location": "San Francisco, CA, US",
+        "job_page_link": "https://www.ycombinator.com/companies/litellm/jobs/UfHkJFZ-founding-fullstack-engineer",
+        "job_hash": "e7dd21f25470fa65ab4cf70589d07531",
+        "job_post_time": "2025-10-07T16:26:36.954848"
+    },
+    {
+        "company_name": "Aurelian (S22)",
+        "description": "Automating non-emergency calls for 911 centers",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Backend",
+        "job_salary": "$140K - $200K",
+        "average_salary": 170.0,
+        "job_location": "Seattle, WA, US",
+        "job_page_link": "https://www.ycombinator.com/companies/aurelian/jobs/BcEt3vk-backend-software-engineer",
+        "job_hash": "11007a5859123aaf55baa3df24a7454c",
+        "job_post_time": "2025-10-07T16:26:36.954966"
     },
     {
         "company_name": "Firecrawl (S22)",
@@ -285,7 +113,34 @@
         "average_salary": 200.0,
         "job_location": "San Francisco, CA, US",
         "job_page_link": "https://www.ycombinator.com/companies/firecrawl/jobs/OdHvyfc-data-engineer-analyst-product-growth-marketing",
-        "job_hash": "72874470905e68a4cf8c69b1862db1a4"
+        "job_hash": "72874470905e68a4cf8c69b1862db1a4",
+        "job_post_time": "2025-10-07T16:26:36.955194"
+    },
+    {
+        "company_name": "Wefunder (W13)",
+        "description": "We're Robinhood for pre-IPO startups. Everyone can invest $100.",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "No Salaray Specified",
+        "average_salary": -1,
+        "job_location": "San Francisco, CA, US",
+        "job_page_link": "https://www.ycombinator.com/companies/wefunder/jobs/oC8Vfe1-full-stack-senior-software-engineer",
+        "job_hash": "02c34bea072ec95f6ebc3b3181416893",
+        "job_post_time": "2025-10-07T16:26:36.955311"
+    },
+    {
+        "company_name": "AlgoTest (S22)",
+        "description": "Ecosystem for options trading in India",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Devops",
+        "job_salary": "No Salaray Specified",
+        "average_salary": -1,
+        "job_location": "₹2M - ₹5M INR",
+        "job_page_link": "https://www.ycombinator.com/companies/algotest/jobs/HpbUlL1-founding-devops-engineer-core-trading-platform",
+        "job_hash": "42cc356a929fc1a284c1d982a5f4d561",
+        "job_post_time": "2025-10-07T16:26:36.955450"
     },
     {
         "company_name": "Landeed (S22)",
@@ -297,7 +152,8 @@
         "average_salary": -1,
         "job_location": "₹2M - ₹6M INR",
         "job_page_link": "https://www.ycombinator.com/companies/landeed/jobs/1RGlF1W-founding-fullstack-engineer-react-react-native-any-backend-india",
-        "job_hash": "7e014ebcd59d3ac7695bc3aa78abea91"
+        "job_hash": "7e014ebcd59d3ac7695bc3aa78abea91",
+        "job_post_time": "2025-10-07T16:26:36.955568"
     },
     {
         "company_name": "Method Financial (S19)",
@@ -309,7 +165,8 @@
         "average_salary": 170.0,
         "job_location": "New York, NY, US / Austin, TX, US / Washington, DC, US",
         "job_page_link": "https://www.ycombinator.com/companies/method-financial/jobs/n1MzWcu-software-engineer",
-        "job_hash": "279938ccabd342f2d4a811edc2142e20"
+        "job_hash": "279938ccabd342f2d4a811edc2142e20",
+        "job_post_time": "2025-10-07T16:26:36.955686"
     },
     {
         "company_name": "LiveFlow (W21)",
@@ -321,7 +178,8 @@
         "average_salary": 150.0,
         "job_location": "London, England, GB / New York, NY, US / San Francisco, CA, US / Remote (US)",
         "job_page_link": "https://www.ycombinator.com/companies/liveflow/jobs/yQSiOcS-senior-full-stack-engineer",
-        "job_hash": "89b6d489c7627c6d9a52457477aaaa21"
+        "job_hash": "89b6d489c7627c6d9a52457477aaaa21",
+        "job_post_time": "2025-10-07T16:26:36.955804"
     },
     {
         "company_name": "Ziina (W21)",
@@ -333,7 +191,21 @@
         "average_salary": 125.0,
         "job_location": "Dubai",
         "job_page_link": "https://www.ycombinator.com/companies/ziina/jobs/WRU4wzI-senior-backend-engineer",
-        "job_hash": "7f05fd3b6165a4d4d7e0b9573d7172b8"
+        "job_hash": "7f05fd3b6165a4d4d7e0b9573d7172b8",
+        "job_post_time": "2025-10-07T16:26:36.955923"
+    },
+    {
+        "company_name": "Sphere (W22)",
+        "description": "AI-powered sales tax, VAT and GST compliance",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$180K - $250K",
+        "average_salary": 215.0,
+        "job_location": "San Francisco, CA, US",
+        "job_page_link": "https://www.ycombinator.com/companies/sphere/jobs/m1e8VIc-senior-full-stack-engineer",
+        "job_hash": "4f11220a5a450d13eefddc33ac30312f",
+        "job_post_time": "2025-10-07T16:26:36.956037"
     },
     {
         "company_name": "GoGoGrandparent (S16)",
@@ -345,6 +217,33 @@
         "average_salary": 140.0,
         "job_location": "Remote",
         "job_page_link": "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-gogograndparent-yc-s16-is-hiring-backend-and-full-stack-engineers",
-        "job_hash": "5b15a27baa52af6912253363cb31ffcb"
+        "job_hash": "5b15a27baa52af6912253363cb31ffcb",
+        "job_post_time": "2025-10-07T16:26:36.956151"
+    },
+    {
+        "company_name": "Hype (S22)",
+        "description": "Trade memecoins & crypto",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$140K - $210K",
+        "average_salary": 175.0,
+        "job_location": "New York, NY, US",
+        "job_page_link": "https://www.ycombinator.com/companies/hype/jobs/TSdR1ed-senior-software-engineer",
+        "job_hash": "d7ca600bf520e9893cf298b074cce2f2",
+        "job_post_time": "2025-10-07T16:26:36.956272"
+    },
+    {
+        "company_name": "Adaptyv (S21)",
+        "description": "We're building fully automated labs for protein engineering",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "No Salaray Specified",
+        "average_salary": -1,
+        "job_location": "Lausanne / Hybrid / Remote / Remote (US)",
+        "job_page_link": "https://www.ycombinator.com/companies/adaptyv/jobs/zuW50qh-product-engineer",
+        "job_hash": "dc4a97f2342a2258f951637a98ba41b5",
+        "job_post_time": "2025-10-07T16:26:36.956383"
     }
 ]

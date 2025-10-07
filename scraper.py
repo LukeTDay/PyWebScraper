@@ -2,6 +2,7 @@ import requests
 import re
 import json
 import hashlib
+from datetime import datetime
 from bs4 import BeautifulSoup
 
 url = "https://www.ycombinator.com/jobs"
@@ -57,7 +58,8 @@ for job in job_listings:
         "average_salary": average_salary,
         "job_location": job_location,
         "job_page_link": job_link_data,
-        "job_hash": job_hash
+        "job_hash": job_hash,
+        "job_post_time": datetime.now().isoformat()
     }
     
     jobs.append(job_data)
@@ -78,7 +80,7 @@ for i in jobs:
     append_job = True
     for j in previously_saved_jobs:
         if j["job_hash"] == i["job_hash"]:
-            #print(f"{i["job_hash"]} has already been appended")
+            print(f"{i["job_hash"]} has already been appended")
             append_job = False
     if append_job:
         previously_saved_jobs.append(i)
