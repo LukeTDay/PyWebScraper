@@ -1,5 +1,7 @@
 import requests
 import re
+import json
+import hashlib
 from bs4 import BeautifulSoup
 
 url = "https://www.ycombinator.com/jobs"
@@ -30,7 +32,7 @@ for job in job_listings:
             job_salary_integer = [int(num) for num in job_salary_integer]
             average_salary = (sum(job_salary_integer))/2
         else:
-            print(f"{company_name} had no attached salary range")
+            #print(f"{company_name} had no attached salary range")
             job_salary = "No Salaray Specified"
             job_location = information_block[3]
             average_salary = -1
@@ -41,9 +43,9 @@ for job in job_listings:
     job_link_data = job.find("a", class_ = "text-sm font-semibold leading-tight text-linkColor md:text-base md:leading-normal")["href"]
     job_link_data = "https://www.ycombinator.com" + job_link_data
 
-
-
-
+    #Create a hash of the job posting for easy checking if the job has already been posted
+    job_string_before_hash = job_title + job_location + str(average_salary)
+    job_hash = hashlib.md5(job_string_before_hash.encode()).hexdigest()
 
     job_data = {
         "company_name": company_name,
@@ -54,9 +56,33 @@ for job in job_listings:
         "job_salary": job_salary,
         "average_salary": average_salary,
         "job_location": job_location,
-        "job_page_link": job_link_data
+        "job_page_link": job_link_data,
+        "job_hash": job_hash
     }
     
     jobs.append(job_data)
 
-print(jobs)
+#print(jobs)
+
+try:
+    with open("jobs.json", "r", encoding='utf-8') as f:
+        previously_saved_jobs = json.load(f)
+except FileNotFoundError as e:
+    previously_saved_jobs = []
+    print(f"The file jobs.json was not able to be read\n Error: {e}")
+except json.JSONDecodeError as e:
+    previously_saved_jobs = []
+    print(f"Error decoding the JSON.\n Error: {e}")
+
+for i in jobs:
+    append_job = True
+    for j in previously_saved_jobs:
+        if j["job_hash"] == i["job_hash"]:
+            #print(f"{i["job_hash"]} has already been appended")
+            append_job = False
+    if append_job:
+        previously_saved_jobs.append(i)
+
+with open("jobs.json", "w", encoding='utf-8') as f:
+    json.dump(previously_saved_jobs,f, ensure_ascii=False,indent=4)
+
