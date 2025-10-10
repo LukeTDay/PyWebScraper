@@ -80,7 +80,7 @@ for i in jobs:
     append_job = True
     for j in previously_saved_jobs:
         if j["job_hash"] == i["job_hash"]:
-            print(f"{i["job_hash"]} has already been appended")
+            #print(f"{i["job_hash"]} has already been appended")
             append_job = False
     if append_job:
         previously_saved_jobs.append(i)
