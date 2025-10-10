@@ -23,12 +23,11 @@
             background-color: #a9b5ac;
             transition: background-color 0.2s ease;
             }
-
         </style>
     </head>
     <body>
         <h1>Y Combinator Job Listings</h1>
-        <table>
+        <table class="sortable">
             <thead>
                 <tr>
                     <th>Company</th>
@@ -54,5 +53,6 @@
                 {% endfor %}
             </tbody>
         </table>
+        <script src="{{ url_for('static', filename='js/sorttable.js') }}"></script>
     </body>
 </html>
