@@ -54,5 +54,23 @@
             </tbody>
         </table>
         <script src="{{ url_for('static', filename='js/sorttable.js') }}"></script>
+
+            <div class="pagination">
+        {% if page > 1 %}
+            <a href="/?page={{ page-1 }}">Prev</a>
+        {% endif %}
+
+        {% for p in range(1, total_pages+1) %}
+            {% if p == page %}
+                <a class="current" href="/?page={{ p }}">{{ p }}</a>
+            {% else %}
+                <a href="/?page={{ p }}">{{ p }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if page < total_pages %}
+            <a href="/?page={{ page+1 }}">Next</a>
+        {% endif %}
+    </div>
     </body>
 </html>
