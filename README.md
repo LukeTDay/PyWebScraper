@@ -11,4 +11,4 @@ A Python project that scrapes job postings from [Y Combinator Jobs](https://www.
 
 ## Libraries Used
 
-Python, Requests, BeautifulSoup, Hashlib, Flask, apscheduler, HTML/CSS
+Python, Requests, BeautifulSoup, Hashlib, Flask, apscheduler, gunicorn, HTML/CSS
