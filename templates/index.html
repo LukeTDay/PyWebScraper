@@ -3,12 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>YCombinator Job Scraper</title>
+        <!-- Getting the Roboto Font if it is unavaliable-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <style>
-            body {font-family: Arial, Helvetica, sans-serif; margin: 40 px;}
-            table {width: 100%; border-collapse: collapse;}
+            body {
+                font-family: Roboto;
+                margin: 40px;
+                background-color: #B2BEB5;
+            }
+            table {
+                width: 100%;
+                background-color: #808080;
+                border-radius: 5px;
+                border-color: #7393B3;
+            }
             th,td {border: 1px solid #ccc; padding: 8px; text-align: left;}
-            th {background-color: #f4f4f4;}
-            tr:hover {background-color: #f9f9f9;}
+            th {background-color: #7393B3;}
+            tr:hover {
+            background-color: #a9b5ac;
+            transition: background-color 0.2s ease;
+            }
+
         </style>
     </head>
     <body>
@@ -22,6 +37,7 @@
                     <th>Salary</th>
                     <th>Type</th>
                     <th>Link</th>
+                    <th>Time</th>
                 </tr>
             </thead>
             <tbody>
@@ -33,6 +49,7 @@
                     <td>{{ job.job_salary }}</td>
                     <td>{{ job.job_type }}</td>
                     <td><a href="{{ job.job_page_link }}" target="_blank">View</a></td>
+                    <td>{{ job.job_post_time }}</td>
                 </tr>
                 {% endfor %}
             </tbody>
