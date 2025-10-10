@@ -4,11 +4,11 @@ A Python project that scrapes job postings from [Y Combinator Jobs](https://www.
 
 ## Features
 
-- Scrapes jobs and stores them in `jobs.json`.
+- Scrapes jobs and stores them in `jobs.json` every 20 minutes.
 - Displays listings in a paginated HTML table using Flask.
 - Raw JSON API available at `/rawjson`.
 - Avoids duplicates using hashing.
 
 ## Libraries Used
 
-Python, Requests, BeautifulSoup, Hashlib, Flask, HTML/CSS
+Python, Requests, BeautifulSoup, Hashlib, Flask, apscheduler, HTML/CSS
