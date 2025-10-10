@@ -1,9 +1,15 @@
 from flask import Flask, render_template, request, jsonify
+from apscheduler.schedulers.background import BackgroundScheduler
+from scraper import runScraper
 import json
 
 JOBS_PER_PAGE = 10
 
 app = Flask(__name__)
+
+scheduler = BackgroundScheduler()
+scheduler.add_job(runScraper, 'interval', minutes=20)
+scheduler.start()
 
 @app.route("/")
 def home():

@@ -401,5 +401,57 @@
         "job_page_link": "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-gogograndparent-yc-s16-is-hiring-backend-and-full-stack-engineers",
         "job_hash": "759a188d85e369fbf688464251707647",
         "job_post_time": "2025-10-10"
+    },
+    {
+        "company_name": "Slash (S21)",
+        "description": "Business banking that understands your industry's unique challenges",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$175K - $250K",
+        "average_salary": 212.5,
+        "job_location": "San Francisco Office",
+        "job_page_link": "https://www.ycombinator.com/companies/slash/jobs/GcYJovd-design-engineer-ios-react-native",
+        "job_hash": "c6169692152acf0e483a2d6391ca73bc",
+        "job_post_time": "2025-10-10"
+    },
+    {
+        "company_name": "Fern (W23)",
+        "description": "Instantly offer SDKs and API Docs",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Frontend",
+        "job_salary": "$170K - $210K",
+        "average_salary": 190.0,
+        "job_location": "New York, NY, US",
+        "job_page_link": "https://www.ycombinator.com/companies/fern/jobs/UJemKYf-frontend-engineer",
+        "job_hash": "c64d5262747846081dc5fa4e5c6bc9a0",
+        "job_post_time": "2025-10-10"
+    },
+    {
+        "company_name": "Aqua (S21)",
+        "description": "The Operating System for Alternative Investments",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$120K - $180K",
+        "average_salary": 150.0,
+        "job_location": "New York, NY, US",
+        "job_page_link": "https://www.ycombinator.com/companies/aqua/jobs/lkRXWZR-founding-engineer",
+        "job_hash": "32f22abce39a5bcc03981f00a7693fcc",
+        "job_post_time": "2025-10-10"
+    },
+    {
+        "company_name": "Turing Labs Inc. (W20)",
+        "description": "AI for R&D of consumer brands like P&G to develop better products",
+        "job_title": "Full-time",
+        "job_field": "Engineering",
+        "job_type": "Full stack",
+        "job_salary": "$130K - $180K",
+        "average_salary": 155.0,
+        "job_location": "San Francisco, CA, US / Palo Alto, CA, US / Sunnyvale, CA, US",
+        "job_page_link": "https://www.ycombinator.com/companies/turing-labs-inc/jobs/XCiy75f-strategic-software-engineer-full-stack",
+        "job_hash": "7a77e6d34191399ccac7cc18d19c1fef",
+        "job_post_time": "2025-10-10"
     }
 ]
