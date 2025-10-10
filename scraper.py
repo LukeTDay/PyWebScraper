@@ -59,7 +59,7 @@ for job in job_listings:
         "job_location": job_location,
         "job_page_link": job_link_data,
         "job_hash": job_hash,
-        "job_post_time": datetime.now().isoformat()
+        "job_post_time": datetime.now().strftime("%Y-%m-%d")
     }
     
     jobs.append(job_data)
