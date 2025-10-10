@@ -34,7 +34,7 @@ for job in job_listings:
             average_salary = (sum(job_salary_integer))/2
         else:
             #print(f"{company_name} had no attached salary range")
-            job_salary = "No Salaray Specified"
+            job_salary = "No Salary Specified"
             job_location = information_block[3]
             average_salary = -1
     except IndexError as e:
