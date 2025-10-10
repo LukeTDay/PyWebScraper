@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>YCombinator Job Scraper</title>
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif; margin: 40 px;}
+            table {width: 100%; border-collapse: collapse;}
+            th,td {border: 1px solid #ccc; padding: 8px; text-align: left;}
+            th {background-color: #f4f4f4;}
+            tr:hover {background-color: #f9f9f9;}
+        </style>
+    </head>
+    <body>
+        <h1>Y Combinator Job Listings</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Title</th>
+                    <th>Location</th>
+                    <th>Salary</th>
+                    <th>Type</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for job in jobs %}
+                <tr>
+                    <td>{{ job.company_name }}</td>
+                    <td>{{ job.job_title }}</td>
+                    <td>{{ job.job_location }}</td>
+                    <td>{{ job.job_salary }}</td>
+                    <td>{{ job.job_type }}</td>
+                    <td><a href="{{ job.job_page_link }}" target="_blank">View</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
