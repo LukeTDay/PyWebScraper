@@ -27,7 +27,7 @@
     </head>
     <body>
         <h1>Y Combinator Job Listings</h1>
-        <table class="sortable">
+        <table>
             <thead>
                 <tr>
                     <th>Company</th>
@@ -53,9 +53,8 @@
                 {% endfor %}
             </tbody>
         </table>
-        <script src="{{ url_for('static', filename='js/sorttable.js') }}"></script>
 
-            <div class="pagination">
+        <div class="pagination">
         {% if page > 1 %}
             <a href="/?page={{ page-1 }}">Prev</a>
         {% endif %}
