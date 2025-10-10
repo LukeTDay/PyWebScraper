@@ -8,7 +8,7 @@ JOBS_PER_PAGE = 10
 app = Flask(__name__)
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(runScraper, 'interval', minutes=20)
+scheduler.add_job(runScraper, 'interval', minutes=14)
 scheduler.start()
 
 @app.route("/")
