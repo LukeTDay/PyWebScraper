@@ -40,4 +40,4 @@ def deliverJSON():
     return jsonify(jobs)
 
 if __name__ == "__main__":
-    app.run(debug=False, extra_files=["templates/index.html"])
+    app.run(debug=False, extra_files=["templates/index.html","jobs.json"])
